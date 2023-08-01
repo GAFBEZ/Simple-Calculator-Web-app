@@ -16,5 +16,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY}}
           script: |
             cd /var/www/html/Simple-Calculator-Web-app
-            git pull origin master
+            sudo git pull origin master
             echo    DONE
